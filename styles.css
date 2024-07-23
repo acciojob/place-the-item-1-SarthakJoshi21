@@ -1,14 +1,12 @@
-
-/* Your CSS Code here. */
 .item{
 	padding:30px;
+	font-size:50px;
 	background-color:green;
 }
 .holder{
 	display:flex;
-	flex-direction:row;
+	flex-direction:row-reverse;
 	gap:5px;
-	justify-content:space-evenly;
+	justify-content:space-between;
 	flex-wrap:wrap;
-	
 }
